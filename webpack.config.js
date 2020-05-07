@@ -44,8 +44,8 @@ module.exports = {
         inline: true,
         open: true,
         historyApiFallback: true,
-        host: 'localhost',
-        port: '5001',
+        host: '127.0.0.1',
+        port: '5000',
         compress: true
     },
     plugins: [

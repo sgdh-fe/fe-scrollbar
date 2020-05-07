@@ -17,15 +17,14 @@ let lock = false,
 function fetchRender(el) {
     if (lock) return;
     lock = true;
-    let str = `<div class="cell" style="background-color:${ getRandomColor() }"></div>`;
+    let str = `<div class="cell" style="background: linear-gradient(30deg,${ getRandomColor()}, ${getRandomColor()})"></div>`;
     clearTimeout(timer)
     timer = setTimeout(() => {
         el.append(str);
         initScrollBar("feScrollbar"); //渲染后，重置滚动条
         lock = false;
-    }, 100)
+    }, 200)
 }
-
 
 let $el = $("#feScrollbar");
 
@@ -40,6 +39,7 @@ $el.scroll(function () {
     let delta = st - lastScroll; //滚动范围
     lastScroll = st; //同步最新位置
     let threshold = 30; //距离底部阈值
+
 
     // 向下滚动时
     if (delta > 0) {
