@@ -2,7 +2,7 @@
 
 <br />
 
-浏览器模拟滚动条 `兼容ie6+` 
+浏览器模拟滚动条 `兼容ie7+` 
 
 [预览地址](http://htmlpreview.github.io/?https://github.com/sgdh-fe/fe-scrollbar/blob/master/dist/index.html)
 
@@ -16,14 +16,14 @@
 
 ## 使用说明
 
-### 安装 
+### 开发环境运行
 
 ```sh
 yarn 或 npm install
 
 ```
 
-### 预览
+### 开发预览
 
 ```sh
 yarn start 或 npm run start
@@ -34,13 +34,13 @@ yarn start 或 npm run start
 
 ---
 
-### 初始化
+### 使用
 
 ```js
 //初始化
-initScrollBar("feScrollbar");
-```
+initScrollBar("feScrollbar")
 
+```
 <br />
 
 
