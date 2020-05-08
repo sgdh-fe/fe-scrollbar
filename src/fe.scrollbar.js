@@ -116,7 +116,7 @@ function initScrollBar(wrapId, offsetVal) {
         overflowY: 'auto'
     });
 
-    updateThumb();``
+    updateThumb();
     $(wrap).scroll(updateThumb);
     $(trail).click(clickTrackHandle); //点击轨道
     dragScrollbarHandle(); //滚动条拖动
