@@ -104,7 +104,6 @@ function initScrollBar(wrapId, offsetVal) {
         document.onmouseup = () => {
             //释放鼠标时，清除文档鼠标按下起来后的事件执行
             document.onmousemove = null
-
         }
     }
 
@@ -117,10 +116,10 @@ function initScrollBar(wrapId, offsetVal) {
         overflowY: 'auto'
     });
 
-    updateThumb();
+    updateThumb();``
     $(wrap).scroll(updateThumb);
-    $(trail).click(clickTrackHandle);
-    dragScrollbarHandle();
+    $(trail).click(clickTrackHandle); //点击轨道
+    dragScrollbarHandle(); //滚动条拖动
 
 }
 
