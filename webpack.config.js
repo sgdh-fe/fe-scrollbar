@@ -10,7 +10,7 @@ module.exports = {
     mode: 'development',
     entry: './src/index.js',
     output: {
-        filename: './index.js',
+        filename: './demo.js',
         path: path.resolve(__dirname, 'docs')
     },
     module: {
