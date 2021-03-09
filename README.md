@@ -4,7 +4,7 @@
 
 浏览器模拟滚动条 `兼容ie7+` 
 
-[预览地址](http://htmlpreview.github.io/?https://github.com/sgdh-fe/fe-scrollbar/blob/master/dist/index.html)
+[预览地址](https://sgdh-fe.github.io/fe-scrollbar/)
 
 <br />
 
@@ -37,6 +37,9 @@ yarn start 或 npm run start
 ### 使用
 
 ```js
+//导入
+src/fe.scrollbar.js
+
 //初始化
 initScrollBar("feScrollbar")
 
